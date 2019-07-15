@@ -1,51 +1,44 @@
-@import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Creepster|Finger+Paint|Forum&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Boogaloo&display=swap");
 *{
     margin: 0px;
     padding: 0px;
     background-size:cover;
     overflow:inherit;
-
 }
-#navegador {
-    list-style-type: none;
-    text-align: right;
-    display: inline;
- }
- #navegador li{
-    display: inline;
-    text-align:right;
-    margin: 0 10px 0 0;
- }
- #navegador li a {
-    padding: 2px 7px 2px 7px;
+.button{
+  text-align: right;
+  margin: 1%;
+}
+.botton{
     color: chartreuse;
-    font-family:'Finger Paint', cursive;
+    font-family:'Boogaloo', cursive;
+    font-size: large;
     background-color: transparent;
     text-decoration: none;
+    padding: 2px 7px 2px 7px;
+    
     
  }
- #navegador li a:hover{
+ .botton:hover{
     background-color: dodgerblue;
     color: #ffffff;
  }
 h1 {
-    font-family:'Creepster', cursive;
+    font-family:'Boogaloo', cursive;
     color: chartreuse;
     text-align: center;
     font-size: 60px;
 }
 h2{
-
-    font-family:'Boogaloo', cursive;;
+    font-family:'Boogaloo', cursive;
     color: dodgerblue;
     font-size: 35px;
     text-align: center;
 }
 h3{
     font-family:'Boogaloo', cursive;
-
     color: dodgerblue;
-    font-size: 50px;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -79,15 +72,19 @@ h3{
   width: 50vh;
   height: 65vh;
   background-color:black;
-  font-size: small;
+  font-family:'Boogaloo', cursive; 
+  font-size: large;
   text-align: center;
   text-overflow:inherit;
       color: chartreuse;
       flex-direction: row;
       flex-flow: column;
-
 }
 
+img#imagen{
+  width: 80%;
+  height: 90%;
+}
 *{
 
   box-sizing: border-box;
@@ -199,7 +196,7 @@ h3{
 @media all and (max-width: 450px){
   [class*= "col-"]{
     width: 100%;
-
+pa
   }
 
 }
