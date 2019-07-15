@@ -15,31 +15,31 @@ window.dataManager = {
     console.log(items) 
     return items;
     
-  },
+   },
     
-    orderAz:(data,az)=>{
+    orderAz : (data,az)=>{
     if (az == "A-Z"){
-      const result= data.sort((a,b)=>{
+      const resulta= data.sort((a,b)=>{
           if (a.name.toLowerCase() < b.name.toLowerCase()
           ) return -1;
           if (a.name.toLowerCase() > b.name.toLowerCase()
           ) return 1;
           return 0;
       });
-      return result;
+      return resulta;
   }
   else {
-      const result= data.sort((a,b)=>{
+      const resulta= data.sort((a,b)=>{
           if (a.name.toLowerCase() > b.name.toLowerCase()
           ) return -1;
           if (a.name.toLowerCase() < b.name.toLowerCase()
           ) return 1;
           return 0;
       });
-      return result;
+      return resulta;
   }
-  }
-     
-​}
+  },
+}    
+
     // window.order = order;
     // window.orderZA = orderZA;
