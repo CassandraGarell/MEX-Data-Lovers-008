@@ -6,8 +6,8 @@
 
  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
- <title>Document</title>
-    <title>Data Lovers</title>
+ 
+    <title>Mortys+Mortys</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body background=imagenes/rickymorty.jpg>
@@ -17,20 +17,10 @@
       <br>
       <h2>¡Hola humano de C-137! Te damos la bienvenida al Multiverso de búsqueda</h2>
       <h3>Aquí encontrarás a los personajes de Rick & Morty por su nombre, especie, origen o localización actual</h3>
-    </div> <br>
-
-       <nav id="navegador">
-         <ul>
-            <li><a href="ricks">Ricks</a></li>
-            <li><a href="mortys">Mortys</a></li>
-            <li><a href="los-otros">Los otros</a></li>
-            <li><a href="a-z">A-Z</a></li> //hacerlo select
-            <li><a href="estadisticas">Estadísticas</a></li>
-          </ul>
-        </nav>
+     </div> 
     </header>
-    <br>
-    <br>
+    
+    
 
     <!-- <section id= "primera-seccion"></section>
     <div id= "buscador">
@@ -41,9 +31,22 @@
         </a>
     </figure> <br>
     </div> -->
-      <section id="main-content" class="main-style"> -->
-         <div id="rick-mory-card" class="card"></div>
-         <br>
+      <section id="main-content" class="main-style"> 
+        <div class= button>
+        <a data-text="Rick" class="botton" id="button-ricks" href="#">Ricks</a>
+        <a class="botton" id="button-morty"  href="#">Mortys</a>
+        <a class="botton" id="button-otros"  href="#">Los otros</a>
+        <select id = ordenar>
+             <option value="ordena por">ordenar por</option>
+             <option value="A-Z">A.Z</option>
+             <option value="Z-A">Z.A</option>
+            </select></li>
+          <a class="boton-icon" id="boton-estadistica" href="#">
+            <img src="imagenes/analytics.png" alt="icon" width="5%" height="5%" >
+           </a>
+        </div>
+        <div id="rick-mory-card" class="card"></div>
+         
 
      </section>
 
